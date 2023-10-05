@@ -9,9 +9,9 @@ const Container = () => {
             <SolidTinyMCE
                 width={300}
                 height={300}
+                content={undefined}
                 top={150}
                 left={150}
-                content={"Test Content"}
                 color={"white"}
                 onEnter={(text: string) => console.log(text)}
                 onEscape={() => setOpen(false)} />
