@@ -9,7 +9,7 @@ const Container = () => {
             <SolidTinyMCE
                 width={300}
                 height={300}
-                content={undefined}
+                content={"text to be edited"}
                 top={150}
                 left={150}
                 color={"white"}

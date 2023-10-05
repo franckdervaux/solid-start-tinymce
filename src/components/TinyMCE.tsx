@@ -46,6 +46,7 @@ export const SolidTinyMCE: Component<TinyMCEProps> = (props) => {
     return (
         <div ref={targetRef!}
             id="editor"
+            innerHTML={props.content}
             style={{
                 display: 'inline',
                 position: 'absolute',
